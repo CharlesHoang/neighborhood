@@ -1,0 +1,1 @@
+A mini SPA using third-party APIs like Google Maps API, Yelp API, and WikiMedia API.  

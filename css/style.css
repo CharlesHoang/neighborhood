@@ -1,0 +1,155 @@
+/**General Page Formatting Styles**/
+html,
+body,
+#content-wrapper,
+main {
+	height:100%; /**Set height for ancestors of map so it renders properly**/
+	font-family: "Jura", sans-serif;
+}
+
+
+body{
+	background-image: url("../img/patterns/small_steps/small_steps.png");
+	background-repeat: repeat;
+}
+
+/**Content Wrapper Styles**/
+#content-wrapper{
+	margin: 0 2.5%; /**Centers content wrapper on the page**/
+	background-color: #fff;
+	overflow:auto;
+}
+
+#content-wrapper:after{
+	content:"";
+}
+
+/**Site Header Styles**/
+#site-header{
+	margin-top:0;
+	padding: 2% 0 0.5% 1%;
+	color: #fff;
+	background-color: #000;
+}
+
+/**Main Styles**/
+
+main{
+	margin: 0 1%;
+}
+
+#map-canvas{
+	height: 100%;
+	width: 100%;
+}
+
+
+/**Sidebar**/
+
+#sidebar {
+	border: 1px solid #F4F4F4;
+	background-color: #fff;
+}
+
+#sidebar h2{
+	padding: 2% 2% 4% 2%;
+	margin:0;
+	background-color: #fff;
+}
+
+#sidebar ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+#sidebar li{
+	background-color: #fff;
+	margin: 0.5% 0;
+	padding: 2% 0;
+}
+
+#sidebar li.highlighted{
+	background-color: #E4E4E4;
+}
+
+#sidebar li div{
+	margin: 0;
+	padding:0 5%;
+	cursor:pointer;
+}
+
+#sidebar li div h3{
+	margin-top: 0;
+}
+
+#sidebar li div p{
+	margin-bottom: 0;
+}
+
+/**Search Bar**/
+#search-bar{
+	background-color:#F4F4F4;
+	padding: 2%;
+}
+
+/**Location Panel**/
+#location-panel{
+	height: 100%;
+	width: 100%;
+	position:relative;
+	background-color: rgba(128,128,128,0.75);
+	vertical-align:top;
+}
+
+#exit-button{
+	float:right;
+}
+
+#location-panel-title{
+	clear:both; /*clears float from exit button, to add its height back to its parent element*/
+}
+
+/**Footer Styles**/
+footer{
+	width: 100%;
+	height:5%;
+	background-color: #000;
+	color:white;
+	text-align:right;
+	padding: 0.75% 0 0 0;
+	font-size: 85%;
+}
+
+/**Browsers > 960px**/
+@media (min-width:960px) {
+
+	/**Main Styles**/
+	main{
+		display: inline-block; /*Two-column display using inline-block elements*/
+		width: 68%;
+		height: 75%;
+	}
+
+	/**Sidebar Styles**/
+	#sidebar {
+		height: 75%;
+		width: 28%;
+		display:inline-block; /*Two-column display using inline-block elements*/
+		vertical-align:top; /*Aligns div at top of page*/
+		overflow-y:auto;
+	}
+	
+	/**Footer Styles**/
+	footer{
+		margin-top: 5%;
+	}
+	
+	body,
+	#content-wrapper{
+		overflow:hidden; /**Ensures no scroll bar is rendered for the page **/
+	}
+}
+
+/*****************************ATTRIBUTIONS***********************************/	
+/* Background pattern from subtlepatterns.com */	
