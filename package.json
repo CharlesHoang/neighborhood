@@ -1,0 +1,25 @@
+{
+  "name": "neighborhood",
+  "version": "0.0.0",
+  "description": "Dependencies for this simple SPA",
+  "main": "server.js",
+  "dependencies": {
+    "yelp": "^0.2.0",
+    "ecstatic": "^0.7.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CharlesHoang/neighborhood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharlesHoang/neighborhood/issues"
+  },
+  "homepage": "https://github.com/CharlesHoang/neighborhood"
+}

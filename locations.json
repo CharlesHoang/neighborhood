@@ -1,0 +1,135 @@
+{
+	"0": {"id":0,
+		"name":"Dunkin' Donuts", 
+		"address": {"street": "209 N Harvard St",
+				  "city": "Allston",
+				  "state": "MA",
+				  "zipcode": "02134"},
+		"description": "Long-running chain serving signature donuts, breakfast sandwiches & a variety of coffee drinks.", 
+		"type": "Food", 
+		"marker":{
+			"position": {"lat":42.362553, "lng":-71.130689}, 
+			"title": "Dunkin' Donuts"}
+		},
+	"1": {"id":1,
+		"name":"Swissbakers", 
+		"address": {"street": "168 Western Ave",
+				  "city": "Boston",
+				  "state": "MA", 
+				  "zipcode": "02134"},
+		"description": "European-style bakery showcasing homemade breads, pretzels & pastries in a bright & airy location.", 
+		"type": "Food", 
+		"marker":{
+			"position": {"lat":42.362902, "lng":-71.128484}, 
+			"title": "Swissbakers Inc"}
+		},
+	"2": {"id":2,
+		"name":"Buried Treasures", 
+		"address": {"street": "377 Cambridge St",
+				  "city": "Allston",
+				  "state": "MA", 
+				  "zipcode": "02134"},
+		"description": "Veteran smoke shop stocking glassware, hookahs & other accessories, plus organic cotton clothing.", 
+		"type": "Shopping", 
+		"marker":{
+			"position": {"lat":42.355632, "lng":-71.133028}, 
+			"title": "Buried Treasures"}
+		},
+	"3": {"id":3,
+		"name":"Harvard Stadium", 
+		"address": {"street": "79 N Harvard St",
+				  "city": "Allston",
+				  "state": "MA", 
+				  "zipcode": "02134"},
+		"description": "University's historic u-shaped football stadium hosts a variety of sports & events.", 
+		"type": "Attractions", 
+		"marker":{
+			"position": {"lat":42.366033, "lng":-71.127390}, 
+			"title": "Harvard Stadium"}
+		},
+	"4": {"id":4,
+		"name":"Bonnie Upholstering and Furniture Co", 
+		"address": {"street": "273 Western Ave",
+				  "city": "Allston",
+				  "state": "MA", 
+				  "zipcode": "02134"},
+		"description": "This store specializes in customized mattresses & cushions made of foam, with many fabric options.", 
+		"type": "Shopping", 
+		"marker":{
+			"position": {"lat":42.363559, "lng":-71.133483}, 
+			"title": "Bonnie Upholstering & Furniture Co Inc"}
+		},
+	"5": {"id":5,
+		"name":"Honan-Allston Library", 
+		"address": {"street": "300 N Harvard St",
+				  "city": "Allston",
+				  "state": "MA", 
+				  "zipcode": "02134"},
+		"description": "The Allston branch of the Boston Public Library.", 
+		"type": "Attraction", 
+		"marker":{
+			"position": {"lat":42.359992, "lng": -71.128152}, 
+			"title": "Honan-Allston Branch Library"}
+		},
+	"6": {"id":6,
+		"name":"7-Eleven", 
+		"address": {"street": "204 N Harvard St",
+				  "city": "Allston",
+				  "state": "MA", 
+				  "zipcode": "02134"},
+		"description": "Convenience store chain offering grab-&-go bites & beverages, plus assorted newsstand items.", 
+		"type": "Food", 
+		"marker":{
+			"position": {"lat": 42.362807, "lng": -71.129799}, 
+			"title": "7-Eleven"}
+		},
+	"7": {"id":7,
+		"name":"Flint Cleaners", 
+		"address": {"street": "170 Western Ave",
+				  "city": "Allston",
+				  "state": "MA", 
+				  "zipcode": "02134"},
+		"description": "Local dry cleaner and laundromat known by their big blue sign.", 
+		"type": "Services", 
+		"marker":{
+			"position": {"lat": 42.362997, "lng": -71.128887}, 
+			"title": "Flint Cleaners"}
+		},
+	"8": {"id":8,
+	"name":"USPS", 
+	"address": {"street": "47 Harvard Ave",
+			  "city": "Allston",
+			  "state": "MA", 
+			  "zipcode": "02134"},
+	"description": "Allston's US Post Office branch, losing mail since, well, always.", 
+	"type": "Services", 
+	"marker":{
+		"position": {"lat": 42.354470, "lng": -71.132711}, 
+		"title": "US Post Office"}
+	},
+	"9": {"id":9,
+	"name":"Tedeschi Food Shops", 
+	"address": {"street": "157 Brighton Ave",
+			  "city": "Allston",
+			  "state": "MA", 
+			  "zipcode": "02134"},
+	"description": "Chain of small groceries, offering convenience & produce (some with gas stations).", 
+	"type": "Food", 
+	"marker":{
+		"position": {"lat": 42.353273, "lng": -71.132333}, 
+		"title": "Tedeschi Food Shops"}
+	},
+	"10": {"id":10,
+	"name":"McDonald's", 
+	"address": {"street": "1223 Commonwealth Avenue",
+			  "city": "Allston",
+			  "state": "MA", 
+			  "zipcode": "02134"},
+	"description": "Classic, long-running fast-food chain known for its burgers, fries & shakes.", 
+	"type": "Food", 
+	"marker":{
+		"position": {"lat": 42.350682, "lng": -71.130984}, 
+		"title": "McDonald's"}
+	}
+	
+}

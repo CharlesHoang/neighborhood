@@ -1,1 +1,1 @@
-A mini SPA using third-party APIs like Google Maps API, Yelp API, and WikiMedia API.  
+A mini SPA using JavaScript, Node.js and third-party APIs like Google Maps API, Yelp API, and WikiMedia API.  
